@@ -1,0 +1,29 @@
+{
+  "name": "toe",
+  "version": "1.0.0",
+  "description": "The simple data-flow library for Javascript applications",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "node_modules/.bin/webpack --watch & node_modules/.bin/http-server -o"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabrieli/toe.git"
+  },
+  "author": "Gabriel Ionescu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gabrieli/toe/issues"
+  },
+  "homepage": "https://github.com/gabrieli/toe#readme",
+  "devDependencies": {
+    "babel-core": "^6.22.1",
+    "babel-loader": "^6.2.10",
+    "babel-preset-es2015": "^6.22.0",
+    "http-server": "^0.9.0",
+    "webpack": "^2.2.1",
+    "webpack-auto-inject-version": "^0.2.11",
+    "webpack-dev-server": "^2.3.0"
+  }
+}
