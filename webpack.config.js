@@ -3,8 +3,8 @@ var WebpackAutoInject = require('webpack-auto-inject-version');
 
 module.exports = {
     entry: {
-        'toe': './src/index.js',
-        'toe.min': './src/index.js'
+        'toe': './index.js',
+        'toe.min': './index.js'
     },
     output: {
         path: './bin',
